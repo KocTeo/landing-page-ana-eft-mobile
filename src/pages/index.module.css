@@ -1,0 +1,352 @@
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #caa8f5;
+  width: 390px;
+  height: 295px;
+}
+.carosAmigosAProssentenaC {
+  top: 139px;
+  left: 56px;
+  display: inline-block;
+  text-align: center;
+  width: 277px;
+}
+.carosAmigosAProssentenaC,
+.eFTComAnaLcia,
+.transformaoDeVida {
+  position: absolute;
+  line-height: 122.02%;
+}
+.transformaoDeVida {
+  top: 91px;
+  left: 78px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 234px;
+}
+.eFTComAnaLcia {
+  top: 46px;
+  left: 75px;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  width: 240px;
+}
+.headerDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 390px;
+  height: 295px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+}
+.consultaExeperimentalGrtis {
+  position: absolute;
+  top: 0;
+  left: 19px;
+  line-height: 122.02%;
+  display: inline-block;
+}
+.rectangleDiv1 {
+  position: absolute;
+  top: 47px;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  box-shadow: 1px 4px 4px #caa8f5;
+  width: 311px;
+  height: 54px;
+  cursor: pointer;
+}
+.aGENDEAGORAB {
+  position: absolute;
+  top: 63px;
+  left: 82px;
+  line-height: 122.02%;
+  display: inline-block;
+  color: var(--color-pink);
+  text-align: left;
+}
+.scheduleDiv {
+  position: absolute;
+  top: 321px;
+  left: 39px;
+  width: 311px;
+  height: 101px;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.aTcnicaDeLiberaoEmocion,
+.oQueEFT {
+  position: absolute;
+  top: 0;
+  left: 104px;
+  line-height: 122.02%;
+  display: inline-block;
+}
+.aTcnicaDeLiberaoEmocion {
+  top: 41px;
+  left: 0;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.01em;
+  line-height: 135%;
+  font-weight: 500;
+  font-family: var(--font-noto-sans);
+  text-align: justify;
+  width: 327px;
+}
+.oqueDiv {
+  position: absolute;
+  top: 472px;
+  left: 31px;
+  width: 327px;
+  height: 173px;
+}
+.aSessoDeEFTTrabalhaComA,
+.tratamentoB {
+  position: absolute;
+  letter-spacing: 0.01em;
+  line-height: 135%;
+  display: inline-block;
+}
+.tratamentoB {
+  top: 0;
+  left: 101px;
+  width: 125px;
+  height: 28px;
+}
+.aSessoDeEFTTrabalhaComA {
+  top: 43px;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-noto-sans);
+  width: 327px;
+}
+.tratamentoDiv {
+  position: absolute;
+  top: 695px;
+  left: 31px;
+  width: 327px;
+  height: 153px;
+  text-align: justify;
+}
+.sessoOnlineB {
+  position: absolute;
+  top: 0;
+  left: 90px;
+  letter-spacing: 0.01em;
+  line-height: 135%;
+  display: inline-block;
+}
+.sessoOnlineDiv {
+  position: absolute;
+  top: 898px;
+  left: 31px;
+  width: 327px;
+  height: 153px;
+  text-align: justify;
+}
+.esteProdutoNoSubstituiOP,
+.saibaMaisComMeuEBOOK {
+  position: absolute;
+  letter-spacing: 0.01em;
+  line-height: 135%;
+  display: inline-block;
+}
+.esteProdutoNoSubstituiOP {
+  top: 1101px;
+  left: 31px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-noto-sans);
+  width: 327px;
+}
+.saibaMaisComMeuEBOOK {
+  top: 0;
+  left: 13px;
+}
+.rectangleDiv2 {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  box-shadow: 0 4px 4px #caa8f5;
+  width: 327px;
+  height: 54px;
+  cursor: pointer;
+}
+.mEUEBOOK {
+  position: absolute;
+  top: 56px;
+  left: 107px;
+  font-size: var(--font-size-lg);
+  line-height: 122.02%;
+  display: inline-block;
+  color: var(--color-pink);
+}
+.ebookDiv {
+  position: absolute;
+  top: 1183px;
+  left: 31px;
+  width: 327px;
+  height: 94px;
+  text-align: justify;
+}
+.oAtendimentoOnlineToEfi1 {
+  position: absolute;
+  top: 344px;
+  left: 0;
+  letter-spacing: 0.01em;
+  line-height: 135%;
+  font-weight: 500;
+  display: inline-block;
+  width: 327px;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 34px;
+  left: 56px;
+  border-radius: var(--br-md);
+  width: 220px;
+  height: 303.96px;
+  object-fit: cover;
+}
+.quemSouEu {
+  position: absolute;
+  top: 0;
+  left: 102px;
+  font-size: var(--font-size-lg);
+  line-height: 122.02%;
+  display: inline-block;
+  font-family: var(--font-volkhov);
+  color: var(--color-black);
+}
+.quemSouDiv {
+  position: absolute;
+  top: 1725px;
+  left: 31px;
+  width: 327px;
+  height: 454px;
+  text-align: justify;
+  font-size: var(--font-size-base);
+  font-family: var(--font-noto-sans);
+}
+.rectangleDiv3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 390px;
+  height: 227px;
+}
+.meSigaNasRedesSociaisPra {
+  position: absolute;
+  bottom: 25px;
+  left: 29px;
+  letter-spacing: 0.01em;
+  line-height: 135%;
+  font-weight: 500;
+  display: inline-block;
+  width: 331px;
+}
+.conesIcon {
+  position: absolute;
+  bottom: 88px;
+  left: 54px;
+  width: 282px;
+  height: 70px;
+}
+.redesSociaisB {
+  position: absolute;
+  bottom: 173px;
+  left: 124px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.01em;
+  line-height: 135%;
+  display: inline-block;
+  font-family: var(--font-volkhov);
+  text-align: justify;
+}
+.redeSociaisDiv {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 390px;
+  height: 227px;
+  font-size: var(--font-size-lg);
+  color: var(--color-pink);
+  font-family: var(--font-noto-sans);
+}
+.benefcios {
+  position: absolute;
+  top: 0;
+  left: 77px;
+  letter-spacing: 0.01em;
+  line-height: 135%;
+  display: inline-block;
+}
+.rectangleIcon1,
+.rectangleIcon2,
+.rectangleIcon3 {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 100px;
+  height: 103.9px;
+  object-fit: cover;
+}
+.rectangleIcon2,
+.rectangleIcon3 {
+  top: 191px;
+  left: 83px;
+}
+.rectangleIcon3 {
+  top: 45px;
+  left: 165px;
+}
+.beneficiosDiv {
+  position: absolute;
+  top: 1327px;
+  left: 62px;
+  width: 265px;
+  height: 294.9px;
+  text-align: justify;
+}
+.aJUDANOAUTOCONHECIMENTO,
+.aJUDANOAUTOCONHECIMENTO1,
+.aJUDANOAUTOCONHECIMENTO2 {
+  position: absolute;
+  top: 1482px;
+  left: 47px;
+  font-size: var(--font-size-sm);
+  line-height: 122.02%;
+  font-weight: 500;
+  font-family: var(--font-noto-sans);
+  display: inline-block;
+  width: 130px;
+}
+.aJUDANOAUTOCONHECIMENTO1,
+.aJUDANOAUTOCONHECIMENTO2 {
+  left: 212px;
+}
+.aJUDANOAUTOCONHECIMENTO2 {
+  top: 1634px;
+  left: 130px;
+}
+.iPhone1313Pro1 {
+  position: relative;
+  background-color: var(--color-pink);
+  width: 100%;
+  height: 2471px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-volkhov);
+}

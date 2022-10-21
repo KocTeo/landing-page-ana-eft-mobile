@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-noto-sans: "Noto Sans";
+  --font-volkhov: Volkhov;
+
+  /* font sizes */
+  --font-size-sm: 12px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 21px;
+
+  /* Colors */
+  --color-pink: #e0d0f4;
+  --color-gray-100: #4b2142;
+  --color-gray-200: #141414;
+  --color-black: #000;
+
+  /* border radiuses */
+  --br-md: 20px;
+}
