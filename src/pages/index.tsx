@@ -1,17 +1,17 @@
-import type { NextPage } from "next";
-import { useCallback } from "react";
-import styles from "./index.module.css";
+import type { NextPage } from 'next'
+import { useCallback } from 'react'
+import styles from './index.module.css'
 
 const IPhone1313Pro1: NextPage = () => {
   const onRectangleRectangle1Click = useCallback(() => {
-    window.open("https://wa.me/553899785207");
-  }, []);
+    window.open('https://wa.me/553899785207')
+  }, [])
 
   const onRectangleRectangle2Click = useCallback(() => {
     window.open(
-      "https://hotmart.com/pt-br/marketplace/produtos/eft-acupuntura-sem-agulhas/G47678043R"
-    );
-  }, []);
+      'https://hotmart.com/pt-br/marketplace/produtos/eft-acupuntura-sem-agulhas/G47678043R'
+    )
+  }, [])
 
   return (
     <div className={styles.iPhone1313Pro1}>
@@ -116,7 +116,7 @@ const IPhone1313Pro1: NextPage = () => {
         AJUDA NO AUTOCONHECIMENTO
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default IPhone1313Pro1;
+export default IPhone1313Pro1
