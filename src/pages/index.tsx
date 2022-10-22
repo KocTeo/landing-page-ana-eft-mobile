@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import AboutEFT from '../components/AboutEFT'
+import Benefits from '../components/Benefits'
 import Ebook from '../components/Ebook'
 import Header from '../components/Header'
 import Online from '../components/Online'
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       <Treatment />
       <Online />
       <Ebook />
+      <Benefits />
       <div>
         <div>
           O atendimento online é tão eficiente quanto o atendimento presencial e

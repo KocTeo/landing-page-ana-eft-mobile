@@ -8,7 +8,7 @@ export const EbookContainer = styled.div`
     button {
       width: 90vw;
       height: 60%;
-      border-radius: 20px;
+      border-radius: ${props => props.theme.borderRadius.picture};
       border: none;
       background-color: ${props => props.theme.colors.primary};
       color: ${props => props.theme.colors.background};
