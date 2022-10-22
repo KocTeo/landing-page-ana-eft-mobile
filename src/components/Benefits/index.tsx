@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { FcApprove, FcBiotech, FcIdea } from 'react-icons/fc'
+import { FcApprove, FcBiotech, FcBrokenLink } from 'react-icons/fc'
 
 import { BenefitsContainer } from './styles'
 
@@ -16,7 +16,7 @@ const Benefits: React.FC = () => {
         <span>AUXILIA NO EQUILÍBRIO EMOCIONAL</span>
       </div>
       <div className="elipse-container">
-        <FcIdea className="elipse" />
+        <FcBrokenLink className="elipse" />
         <span>RESSIGNIFA TRAUMAS</span>
       </div>
     </BenefitsContainer>

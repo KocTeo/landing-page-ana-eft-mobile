@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import About from '../components/About'
 import AboutEFT from '../components/AboutEFT'
 import Benefits from '../components/Benefits'
 import Ebook from '../components/Ebook'
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
       <Online />
       <Ebook />
       <Benefits />
+      <About />
       <Footer />
     </div>
   )

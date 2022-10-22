@@ -2,13 +2,15 @@ import styled from 'styled-components'
 
 export const BenefitsContainer = styled.div`
   @media (max-width: 1024px) {
-    height: 50vh;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+
+    background-color: ${props => props.theme.colors.primary};
 
     .elipse-container {
       display: flex;
@@ -16,20 +18,21 @@ export const BenefitsContainer = styled.div`
       align-items: center;
       justify-content: center;
 
-      margin: 15px;
-      width: 42.7%;
-      height: 45%;
-
       span {
         width: 100%;
         text-align: center;
-        margin: 15px;
+
+        margin-top: 20px;
+
+        font-size: ${props => props.theme.fontSize.large};
+        font-weight: ${props => props.theme.fontWeight.bold};
+        color: ${props => props.theme.colors.background};
       }
     }
 
     .elipse {
-      width: 80%;
-      height: 80%;
+      width: 50%;
+      height: 60%;
     }
   }
 `

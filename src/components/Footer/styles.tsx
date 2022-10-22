@@ -32,6 +32,7 @@ export const FooterContainer = styled.div`
       .icon {
         font-size: 100px;
         margin: 15px;
+        color: ${props => props.theme.colors.secondary};
       }
     }
   }
