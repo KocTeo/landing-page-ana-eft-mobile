@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import AboutEFT from '../components/AboutEFT'
 import Header from '../components/Header'
 import Schedule from '../components/Schedule'
+import Treatment from '../components/Treatment'
 
 const Home: NextPage = () => {
   return (
@@ -9,15 +10,7 @@ const Home: NextPage = () => {
       <Header />
       <Schedule />
       <AboutEFT />
-
-      <div>
-        <b>Tratamento</b>
-        <div>
-          A sessão de EFT trabalha com a conexão mente-corpo, trazendo uma
-          sequência de batidas leves com a ponta dos dedos, em certos pontos,
-          utilizando também frases de liberação emocional
-        </div>
-      </div>
+      <Treatment />
       <div>
         <b>Sessão Online</b>
         <div>
