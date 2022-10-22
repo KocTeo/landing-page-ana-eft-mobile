@@ -24,5 +24,13 @@ export const OnlineContainer = styled.div`
       font-family: ${props => props.theme.fonts.title};
       text-align: justify;
     }
+
+    span {
+      width: 90vw;
+      font-size: ${props => props.theme.fontSize.small};
+      font-family: ${props => props.theme.fonts.text};
+      text-align: center;
+      margin-top: 30px;
+    }
   }
 `

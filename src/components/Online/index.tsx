@@ -11,6 +11,10 @@ const Online: React.FC = () => {
         oferece os mesmos benefícios tanto físico, emocional e energético para o
         paciente.
       </p>
+      <span>
+        *Este produto não substitui o parecer profissional. Sempre consulte um
+        profissional da saúde*
+      </span>
     </OnlineContainer>
   )
 }
