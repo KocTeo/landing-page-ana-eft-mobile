@@ -1,10 +1,11 @@
 import type { NextPage } from 'next'
+import Header from '../components/Header'
 
-const IPhone1313Pro1: NextPage = () => {
+const Home: NextPage = () => {
   return (
     <div>
+      <Header />
       <div>
-        <div />
         <b>{`Caros amigos, a prossentença composta de invariantes lógicos justificaria a adoção das condições epistemológicas e cognitivas exigidas. `}</b>
         <div>Transformação de vida</div>
         <div>EFT com Ana Lúcia</div>
@@ -71,4 +72,4 @@ const IPhone1313Pro1: NextPage = () => {
   )
 }
 
-export default IPhone1313Pro1
+export default Home
