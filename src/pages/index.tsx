@@ -1,20 +1,12 @@
 import type { NextPage } from 'next'
 import Header from '../components/Header'
+import Schedule from '../components/Schedule'
 
 const Home: NextPage = () => {
   return (
     <div>
       <Header />
-      <div>
-        <b>{`Caros amigos, a prossentença composta de invariantes lógicos justificaria a adoção das condições epistemológicas e cognitivas exigidas. `}</b>
-        <div>Transformação de vida</div>
-        <div>EFT com Ana Lúcia</div>
-      </div>
-      <div>
-        <b>Consulta Exeperimental Grátis</b>
-        <div />
-        <b>AGENDE AGORA</b>
-      </div>
+      <Schedule />
       <div>
         <b>O que é EFT</b>
         <div>{`A Técnica de Liberação Emocional foi desenvolvida pelo engenheiro americano Gary Craig. Ele compreendeu que a causa de todas as emoções negativas, os traumas, é uma interrupção do fluxo de energia do nosso corpo. `}</div>

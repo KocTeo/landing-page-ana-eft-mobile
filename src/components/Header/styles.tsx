@@ -39,6 +39,8 @@ export const HeaderContainer = styled.div`
     margin-bottom: 50px;
 
     h1 {
+      font-family: ${props => props.theme.fonts.title};
+
       margin-top: 100px;
       font-size: ${props => props.theme.fontSize.xlarge};
       margin-bottom: 20px;
@@ -46,12 +48,14 @@ export const HeaderContainer = styled.div`
     }
 
     h3 {
+      font-family: ${props => props.theme.fonts.title};
       margin-bottom: 50px;
       font-size: ${props => props.theme.fontSize.xlarge};
       color: ${props => props.theme.colors.background};
     }
 
     span {
+      font-family: ${props => props.theme.fonts.title};
       margin-bottom: 100px;
       font-size: ${props => props.theme.fontSize.large};
       color: ${props => props.theme.colors.background};
