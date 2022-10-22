@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import AboutEFT from '../components/AboutEFT'
 import Header from '../components/Header'
+import Online from '../components/Online'
 import Schedule from '../components/Schedule'
 import Treatment from '../components/Treatment'
 
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
       <Schedule />
       <AboutEFT />
       <Treatment />
+      <Online />
       <div>
         <b>Sessão Online</b>
         <div>
