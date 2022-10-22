@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import AboutEFT from '../components/AboutEFT'
 import Header from '../components/Header'
 import Schedule from '../components/Schedule'
 
@@ -7,10 +8,8 @@ const Home: NextPage = () => {
     <div>
       <Header />
       <Schedule />
-      <div>
-        <b>O que é EFT</b>
-        <div>{`A Técnica de Liberação Emocional foi desenvolvida pelo engenheiro americano Gary Craig. Ele compreendeu que a causa de todas as emoções negativas, os traumas, é uma interrupção do fluxo de energia do nosso corpo. `}</div>
-      </div>
+      <AboutEFT />
+
       <div>
         <b>Tratamento</b>
         <div>
