@@ -41,7 +41,7 @@ export const HeaderContainer = styled.div`
     h1 {
       font-family: ${props => props.theme.fonts.title};
 
-      margin-top: 100px;
+      margin-top: 60px;
       font-size: ${props => props.theme.fontSize.xlarge};
       margin-bottom: 20px;
       color: ${props => props.theme.colors.background};
@@ -49,18 +49,18 @@ export const HeaderContainer = styled.div`
 
     h3 {
       font-family: ${props => props.theme.fonts.title};
-      margin-bottom: 50px;
+      margin-bottom: 30px;
       font-size: ${props => props.theme.fontSize.xlarge};
       color: ${props => props.theme.colors.background};
     }
 
     span {
       font-family: ${props => props.theme.fonts.title};
-      margin-bottom: 100px;
+      margin-bottom: 30px;
       font-size: ${props => props.theme.fontSize.large};
       color: ${props => props.theme.colors.background};
       text-align: center;
-      width: 80vw;
+      width: 90vw;
     }
 
     .background-blur {

@@ -17,15 +17,25 @@ export const ScheduleContainer = styled.div`
       margin-bottom: 15px;
     }
 
-    button {
-      width: 80vw;
-      height: 60%;
-      border-radius: ${props => props.theme.borderRadius.picture};
+    .btn-schedule {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      filter: drop-shadow(2px 7px 10px #4b2142);
+      background: ${props => props.theme.colors.primary};
+      color: ${props => props.theme.colors.secondary};
+
+      border-radius: 20px;
       border: none;
-      background-color: ${props => props.theme.colors.primary};
-      color: ${props => props.theme.colors.background};
+
+      width: 90%;
+      height: 10vh;
+
+      text-decoration: none;
 
       font-family: ${props => props.theme.fonts.title};
+      font-weight: ${props => props.theme.fontWeight.bold};
       font-size: ${props => props.theme.fontSize.large};
     }
   }

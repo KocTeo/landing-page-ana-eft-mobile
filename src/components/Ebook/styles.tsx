@@ -3,18 +3,29 @@ import styled from 'styled-components'
 export const EbookContainer = styled.div`
   @media (max-width: 1024px) {
     height: 15vh;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 
-    button {
-      width: 90vw;
-      height: 60%;
-      border-radius: ${props => props.theme.borderRadius.picture};
+    .btn-ebook {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      filter: drop-shadow(2px 7px 10px #4b2142);
+      background: ${props => props.theme.colors.primary};
+      color: ${props => props.theme.colors.secondary};
+
+      border-radius: 20px;
       border: none;
-      background-color: ${props => props.theme.colors.primary};
-      color: ${props => props.theme.colors.background};
+
+      width: 95%;
+      height: 10vh;
+
+      text-decoration: none;
 
       font-family: ${props => props.theme.fonts.title};
-      font-size: ${props => props.theme.fontSize.large};
+      font-weight: ${props => props.theme.fontWeight.bold};
+      font-size: ${props => props.theme.fontSize.normal};
     }
   }
 `

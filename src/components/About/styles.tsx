@@ -5,9 +5,10 @@ export const AboutContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     justify-content: center;
-    height: 70vh;
+    height: 80vh;
+    margin-top: 100px;
 
     h3 {
       font-size: ${props => props.theme.fontSize.large};
