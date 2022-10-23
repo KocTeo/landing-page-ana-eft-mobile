@@ -1,6 +1,39 @@
 import styled from 'styled-components'
 
 export const AboutContainer = styled.div`
+  @media (min-width: 1025px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+    justify-content: center;
+    height: 80vh;
+    margin-top: 150px;
+
+    h3 {
+      font-size: ${props => props.theme.fontSize.exLarge};
+      font-family: ${props => props.theme.fonts.title};
+      color: ${props => props.theme.colors.text};
+
+      margin-bottom: 20px;
+    }
+
+    img {
+      height: 80%;
+      border-radius: ${props => props.theme.borderRadius.picture};
+      margin-bottom: 45px;
+    }
+
+    p {
+      width: 50%;
+      font-size: ${props => props.theme.fontSize.large};
+      font-family: ${props => props.theme.fonts.title};
+      text-align: justify;
+
+      margin-bottom: 50px;
+    }
+  }
+
   @media (max-width: 1024px) {
     display: flex;
     flex-direction: column;
