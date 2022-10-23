@@ -17,7 +17,7 @@ const Benefits: React.FC = () => {
       </div>
       <div className="elipse-container">
         <FcBrokenLink className="elipse" />
-        <span>RESSIGNIFA TRAUMAS</span>
+        <span>RESSIGNIFICA TRAUMAS</span>
       </div>
     </BenefitsContainer>
   )
