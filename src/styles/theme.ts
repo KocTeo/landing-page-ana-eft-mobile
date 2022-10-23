@@ -15,7 +15,8 @@ const theme = {
     small: "0.75rem",
     normal: "1rem",
     large: "1.313rem",
-    xlarge: "1.625rem"
+    xlarge: "1.625rem",
+    exLarge: "2.5rem"
   },
 
   fontWeight: {

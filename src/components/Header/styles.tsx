@@ -13,6 +13,33 @@ export const HeaderContainer = styled.div`
     align-items: center;
     justify-content: center;
 
+    margin-bottom: 300px;
+
+    h1 {
+      font-family: ${props => props.theme.fonts.title};
+
+      margin-top: 60px;
+      font-size: ${props => props.theme.fontSize.exLarge};
+      margin-bottom: 20px;
+      color: ${props => props.theme.colors.background};
+    }
+
+    h3 {
+      font-family: ${props => props.theme.fonts.title};
+      margin-bottom: 30px;
+      font-size: ${props => props.theme.fontSize.xlarge};
+      color: ${props => props.theme.colors.background};
+    }
+
+    span {
+      font-family: ${props => props.theme.fonts.title};
+      margin-bottom: 30px;
+      font-size: ${props => props.theme.fontSize.xlarge};
+      color: ${props => props.theme.colors.background};
+      text-align: center;
+      width: 60vw;
+    }
+
     .background-blur {
       filter: blur(10px);
       background-size: contain;
@@ -20,7 +47,7 @@ export const HeaderContainer = styled.div`
       width: 100%;
       height: 80vh;
       z-index: -1;
-      margin-top: 120px;
+      margin-top: 100px;
     }
   }
 

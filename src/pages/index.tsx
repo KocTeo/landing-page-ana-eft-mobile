@@ -14,9 +14,11 @@ const Home: NextPage = () => {
     <div>
       <Header />
       <Schedule />
-      <AboutEFT />
-      <Treatment />
-      <Online />
+      <section className="texts">
+        <AboutEFT />
+        <Treatment />
+        <Online />
+      </section>
       <Ebook />
       <Benefits />
       <About />

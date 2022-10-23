@@ -14,4 +14,13 @@ export default createGlobalStyle`
     font-size: ${props => props.theme.fontSize.normal};
     font-weight: ${props => props.theme.fontWeight.regular};
   }
+
+  @media (min-width: 1025px) {
+    .texts {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      margin-bottom: 100px;
+    }
+  }
 `
