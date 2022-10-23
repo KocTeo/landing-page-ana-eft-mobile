@@ -34,6 +34,11 @@ export const AboutContainer = styled.div`
     }
   }
 
+  @media (min-width: 1025px) and (max-width: 1439px) {
+    margin-top: 250px;
+    margin-bottom: 250px;
+  }
+
   @media (max-width: 1024px) {
     display: flex;
     flex-direction: column;
