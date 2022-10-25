@@ -6,7 +6,7 @@ const About: React.FC = () => {
   return (
     <AboutContainer>
       <h3>Quem Sou Eu?</h3>
-      <img src="/images/self-image.jpeg" alt="" />
+      <img src="/images/self-image.avif" alt="" />
       <p>
         Olá, sou Ana Lucia Bettio Terapeuta Holística, me formei no Instituto
         EFT Brasil, no curso EFT Pro, instrutor André Lima, formada em
