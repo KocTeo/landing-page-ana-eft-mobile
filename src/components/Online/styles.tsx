@@ -5,7 +5,7 @@ export const OnlineContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 80px;
+    margin-top: 80px;
     justify-content: center;
 
     h3 {
