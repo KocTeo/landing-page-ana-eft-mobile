@@ -10,7 +10,11 @@ const Header = () => {
         vidas, desde que você se abra para essa transformação
       </span>
       <span>Meu coração vê o seu coração</span>
-      <img src="/images/main-image.avif" className="background-blur" />
+      <img
+        src="/images/main-image.avif"
+        className="background-blur"
+        alt="Imagem Pessoal borrada"
+      />
     </HeaderContainer>
   )
 }
