@@ -46,7 +46,7 @@ export const AboutContainer = styled.div`
     margin-bottom: 80px;
     justify-content: center;
     height: 80vh;
-    margin-top: 100px;
+    margin-top: 200px;
 
     h3 {
       font-size: ${props => props.theme.fontSize.large};
