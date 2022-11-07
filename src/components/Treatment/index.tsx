@@ -7,9 +7,10 @@ const Treatment: React.FC = () => {
     <TreatmentContainer>
       <h3>Tratamento</h3>
       <p>
-        A sessão de EFT trabalha com a conexão mente-corpo, trazendo uma
-        sequência de batidas leves com a ponta dos dedos, em certos pontos,
-        utilizando também frases de liberação emocional
+        A técnica ajuda a eliminar pensamentos repetitivos que causam qualquer
+        desconforto emocional, situações do passado ou do futuro que tragam
+        alguma sensação ruim ou algum local do corpo que esteja incomodando c
+        uma sequência de batidas leves com a ponta dos dedos, em certos pontos.
       </p>
     </TreatmentContainer>
   )

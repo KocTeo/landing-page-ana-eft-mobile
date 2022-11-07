@@ -31,7 +31,7 @@ export const TreatmentContainer = styled.div`
     margin-bottom: 50px;
     justify-content: center;
 
-    height: 30vh;
+    height: 40vh;
 
     background-color: ${props => props.theme.colors.primary};
 

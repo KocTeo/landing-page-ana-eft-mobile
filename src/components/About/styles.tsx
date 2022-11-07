@@ -8,7 +8,7 @@ export const AboutContainer = styled.div`
     margin-bottom: 150px;
     justify-content: center;
     height: 80vh;
-    margin-top: 150px;
+    margin-top: 200px;
 
     h3 {
       font-size: ${props => props.theme.fontSize.exLarge};
@@ -24,12 +24,19 @@ export const AboutContainer = styled.div`
       margin-bottom: 45px;
     }
 
-    p {
+    p,
+    span {
       width: 50%;
       font-size: ${props => props.theme.fontSize.large};
       font-family: ${props => props.theme.fonts.title};
       text-align: justify;
+      margin: 10px;
+    }
 
+    span {
+      text-align: center;
+    }
+    .name {
       margin-bottom: 50px;
     }
   }
@@ -62,13 +69,20 @@ export const AboutContainer = styled.div`
       margin-bottom: 30px;
     }
 
-    p {
+    p,
+    span {
       width: 90vw;
       font-size: ${props => props.theme.fontSize.normal};
       font-family: ${props => props.theme.fonts.title};
       text-align: justify;
+      margin: 10px;
+    }
 
-      margin-bottom: 50px;
+    span {
+      text-align: center;
+    }
+    .name {
+      margin-bottom: 150px;
     }
   }
 `
