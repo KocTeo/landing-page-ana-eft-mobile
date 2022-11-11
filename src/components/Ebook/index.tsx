@@ -6,7 +6,7 @@ import { EbookContainer } from './styles'
 const Ebook: React.FC = () => {
   return (
     <EbookContainer>
-      <Link href="https://sun.eduzz.com/1637046">
+      <Link href="https://sun.eduzz.com/1675730">
         <a target="_blank" className="btn-ebook">
           CONHEÇA MAIS COM MEU EBOOK
         </a>
